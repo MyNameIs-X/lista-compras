@@ -1,4 +1,4 @@
-# lista_supermecado
+# lista_supermercado
 
 A new Flutter project.
 

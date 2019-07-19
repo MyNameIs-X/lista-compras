@@ -10,21 +10,12 @@ class HomePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
 
-    final content = Center(
-      child: Column(
-        children: <Widget>[
-          Text('Hello Word'), 
-          RaisedButton(
-            child: Text("Sobre"),
-            onPressed: (){
-              Navigator.of(context).pushNamed(AboutPage.tag);
-            },
-          )
-        ],
-      ),
+    final content = Column(
+      children: <Widget>[
+        Center(child: Text('Inicio'),)
+      ],
     );
 
     return Layout.getContent(context, content);
   }
-
 }
